@@ -19,7 +19,7 @@ author_profile: true
 
 我目前是[中国人民大学](https://www.ruc.edu.cn/)[高瓴人工智能学院（GSAI）](http://ai.ruc.edu.cn/)硕士一年级研究生，导师为[**赵鑫教授**](http://ai.ruc.edu.cn/academicfaculty/szdwn/zx/index.htm)。我的研究兴趣包括**自然语言处理（NLP）**、**大语言模型（LLMs）**与**智能体（Agents）**，尤其关注如何提升模型在复杂任务中的规划、工具使用与长程推理能力。
 
-**我的邮箱是：sunshuang@ruc.edu.cn.**
+**我的邮箱是：sunshuang@ruc.edu.cn。**
 
 
 
