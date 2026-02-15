@@ -1,12 +1,9 @@
 ---
-permalink: /
-lang: en
+permalink: /zh/
+lang: zh
 title: "Shuang Sun"
-excerpt: "M.S. student at Gaoling School of Artificial Intelligence (RUC). Research: NLP, LLMs, and Agents."
+excerpt: "M.S. student at Gaoling School of Artificial Intelligence (RUC). Research: NLP, LLMs, and Agents / 中国人民大学高瓴人工智能学院硕士：NLP、大语言模型与智能体。"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -16,55 +13,49 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<!-- <div style="margin-top: 0.6rem; margin-bottom: 1.0rem;">
-  <a href="#en">English</a> · <a href="#zh">中文</a>
-</div> -->
-
----
-
-<span class='anchor' id='en'></span>
 <span class='anchor' id='about-me'></span>
 
-## 👋 About Me
+## 👋 关于我
 
-I am a first-year M.S. student at the **Gaoling School of Artificial Intelligence (GSAI), Renmin University of China (RUC)**, advised by [**Prof. Xin Zhao**](http://ai.ruc.edu.cn/academicfaculty/szdwn/zx/index.htm). My research interests include **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **Agents**, with a particular focus on improving models’ **planning**, **tool use**, and **long-horizon reasoning** in complex real-world tasks.
+我目前是**中国人民大学高瓴人工智能学院（GSAI）硕士一年级**研究生，导师为[**赵鑫教授**](http://ai.ruc.edu.cn/academicfaculty/szdwn/zx/index.htm)。我的研究兴趣包括**自然语言处理（NLP）**、**大语言模型（LLMs）**与**智能体（Agents）**，尤其关注如何提升模型在复杂任务中的规划、工具使用与长程推理能力。
+
 
 ---
 
-## 🔍 Research Interests
+## 🔍 研究兴趣
 
-My research centers on **LLMs**, **World Models**, and **Agents**. I am especially interested in systematically strengthening the **foundational capabilities** of LLMs and further advancing their generalization and practical utility in complex real-world settings through **LLM-based feedback simulation** and **tool-augmented agent paradigms**.
+我的研究聚焦于**大语言模型（LLMs）**、**世界模型（World Models）**与**智能体（Agents）**。我特别关注如何系统性提升大语言模型的**基础能力**，并进一步通过**基于 LLM 的反馈模拟**与**工具增强的智能体范式**，推动模型在真实复杂任务中的泛化与可用性。
 
-* **Enhancing foundational LLM capabilities**: I study effective recipes that combine continued pre-training (CPT), supervised fine-tuning (SFT), reinforcement learning (RL), and test-time scaling (TTS) to expand models’ knowledge boundaries and to develop more effective data construction and training strategies.
-* **World model learning**: I investigate learnable “surrogate environments” that simulate execution and interaction feedback, enabling models to approximate real environment dynamics at low cost, reducing reliance on heavyweight execution stacks (e.g., containers), and improving scalability.
-* **Agent applications and tool use**: I aim to enhance LLMs’ ability to use tools (e.g., web search, code tools, and command-line operations) in realistic workflows, enabling them to solve long-horizon tasks in real-world scenarios.
+* **增强大语言模型基础能力**：结合持续预训练（CPT）、监督微调（SFT）、强化学习（RL）与测试时扩展（TTS），拓宽模型的知识边界，并探索更有效的数据构造与训练策略。
+* **世界模型建模**：研究可学习的“替代环境”以模拟执行与交互反馈，使模型能够在低成本条件下近似真实环境动态，从而降低对重型执行环境的依赖并提升可扩展性。
+* **智能体应用与工具使用**：提升模型在真实工作流中调用工具（如搜索、代码调用与命令行操作）的能力，使其能够解决真实场景下的长程任务。
+
 
 ---
 
 <span class='anchor' id='news'></span>
 
-## 🔥 News
+## 🔥 最新动态
 
-- **[2026-02-04]** We released [**SWE-Master**](https://arxiv.org/pdf/2602.03411) and [**SWE-World**](https://arxiv.org/pdf/2602.03419), aiming to lower the barrier to training code agents and to democratize SWE agent research.  
-  - **SWE-Master**: an open, end-to-end post-training pipeline for SWE agents, along with practical enhancements such as **LSP**.  
-  - **SWE-World**: an LLM-based surrogate environment that simulates environment feedback, breaking the traditional dependence on heavyweight SWE environments (e.g., Docker) and enabling the first end-to-end **Docker-free** training framework.
+- **[2026-02-04]** 我们发布了 [**SWE-Master**](https://arxiv.org/pdf/2602.03411)与 [**SWE-World**](https://arxiv.org/pdf/2602.03419)，目标是降低代码智能体训练门槛、推动代码智能体研究平民化。  
+  - SWE-Master：开放端到端的 SWE Agents 后训练流水线，并探索了如 **LSP** 等增强技巧。  
+  - SWE-World：基于大语言模型模拟环境反馈，突破传统 SWE 重环境（Docker）限制，实现首个全流程 **Docker-free** 训练框架。  
 
-- **[2025-05-22]** We released [**SimpleDeepSearcher**](https://aclanthology.org/2025.findings-emnlp.739.pdf): by synthesizing and filtering a small set of high-quality samples for SFT, we substantially improve deep information seeking capability and outperform RL-based methods from the same period.
+- **[2025-05-22]** 发布 [**SimpleDeepSearcher**](https://aclanthology.org/2025.findings-emnlp.739.pdf)：通过数据合成与筛选获得少量高质量数据进行 SFT，显著提升模型深度搜索能力，并超过同期基于 RL 的方法。  
 
-- **[2025-03-06]** We released [**YuLan-Mini-Instruct**](https://github.com/RUC-GSAI/YuLan-Mini/blob/40a261d3720e08edfbaa1a05a9d90dae7fa1ce85/post_train/README.md): a compact yet strong **2.4B** instruction-tuned model, post-trained from the [YuLan-Mini](https://aclanthology.org/2025.acl-long.268.pdf) base model. Trained efficiently on both open and synthetic data, it achieves competitive performance against mainstream small models such as Qwen2.5-1.5B-Instruct and LLaMA-3.2-3B-Instruct.
+- **[2025-03-06]** 发布 [**YuLan-Mini-Instruct**](https://github.com/RUC-GSAI/YuLan-Mini/blob/40a261d3720e08edfbaa1a05a9d90dae7fa1ce85/post_train/README.md)：一个 **2.4B** 轻量但强大的指令模型，是 [YuLan-Mini](https://aclanthology.org/2025.acl-long.268.pdf) 基座的后训练版本，在开源+合成数据上高效训练，表现可对标 Qwen2.5-1.5B-Instruct、LLama-3.2-3B-Instruct 等主流小模型。  
 
 ---
-
 <span class='anchor' id='publications'></span>
 
-## 📝 Publications
+## 📝 论文
 
 <!-- ===================== SWE-World ===================== -->
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv 2026</div>
-      <img src='images/papers/swe_world.png' alt="SWE-World" width="100%">
+      <img src="{{ '/images/papers/swe_world.png' | relative_url }}" alt="SWE-World" width="100%">
     </div>
   </div>
 
@@ -75,7 +66,7 @@ My research centers on **LLMs**, **World Models**, and **Agents**. I am especial
 **Shuang Sun**\*, Huatong Song\*, Lisheng Huang\*, Jinhao Jiang\*, Ran Le, Zhihao Lv, Zongchao Chen, Yiwen Hu, Wenyang Luo, Wayne Xin Zhao†, Yang Song†, Hongteng Xu, Tao Zhang, Ji-Rong Wen  
 (\* Equal contribution; † Corresponding)
 
-- We propose **SWE-World**, a Docker-free framework that simulates execution feedback with LLMs, enabling end-to-end training and inference for SWE agents (SFT/RL/TTS) without relying on Docker, thereby substantially lowering the infrastructure barrier.
+- 提出了 **SWE-World** 框架，通过 LLMs 模拟执行反馈，实现了无需 Docker 的 SWE Agent 全流程训练与推理（SFT/RL/TTS），显著降低了研究门槛。
 
 <!-- Buttons -->
 <span class="link-block">
@@ -106,12 +97,13 @@ My research centers on **LLMs**, **World Models**, and **Agents**. I am especial
   </div>
 </div>
 
+
 <!-- ===================== SWE-Master ===================== -->
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">arXiv 2026</div>
-      <img src='images/papers/swe_master.png' alt="SWE-Master" width="100%">
+      <img src="{{ '/images/papers/swe_master.png' | relative_url }}" alt="SWE-Master" width="100%">
     </div>
   </div>
 
@@ -122,7 +114,7 @@ My research centers on **LLMs**, **World Models**, and **Agents**. I am especial
 Huatong Song\*, Lisheng Huang\*, **Shuang Sun**\*, Jinhao Jiang\*, Ran Le, Daixuan Cheng, Guoxin Chen, Yiwen Hu, Zongchao Chen, Wayne Xin Zhao†, Yang Song†, Tao Zhang, Ji-Rong Wen  
 (\* Equal contribution; † Corresponding)
 
-- We open-source a fully reproducible end-to-end post-training pipeline for SWE agents (data → long-horizon SFT → RL → TTS), and introduce **LSP**-based structured code navigation to improve interaction efficiency.
+- 开源 SWE 智能体端到端后训练流水线（数据→长程SFT→RL→TTS），并引入 LSP 级代码导航提升交互效率。
 
 <!-- Buttons -->
 <span class="link-block">
@@ -153,12 +145,13 @@ Huatong Song\*, Lisheng Huang\*, **Shuang Sun**\*, Jinhao Jiang\*, Ran Le, Daixu
   </div>
 </div>
 
+
 <!-- ===================== SimpleDeepSearcher ===================== -->
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
       <div class="badge">EMNLP Findings 2025</div>
-      <img src='images/papers/simpledeepsearcher.png' alt="SimpleDeepSearcher" width="100%">
+      <img src="{{ '/images/papers/simpledeepsearcher.png' | relative_url }}" alt="SimpleDeepSearcher" width="100%">
     </div>
   </div>
 
@@ -169,7 +162,7 @@ Huatong Song\*, Lisheng Huang\*, **Shuang Sun**\*, Jinhao Jiang\*, Ran Le, Daixu
 **Shuang Sun**\*, Huatong Song\*, Yuhao Wang, Ruiyang Ren, Jinhao Jiang, Junjie Zhang, Fei Bai, Jia Deng, Wayne Xin Zhao†, Zheng Liu†, Lei Fang†, Zhongyuan Wang, Ji-Rong Wen  
 (\* Equal contribution; † Corresponding)
 
-- We propose a real Web-based data synthesis and multi-criteria curation framework, and show that SFT on only 871 high-quality samples substantially improves deep information seeking capability, outperforming contemporary RL-based approaches.
+- 提出了基于真实 Web 搜索环境的数据合成与多维筛选框架，仅用 871 条高质量 SFT 样本显著提升深度搜索能力，超越同期 RL 方法。
 
 <!-- Buttons -->
 <span class="link-block">
@@ -200,29 +193,31 @@ Huatong Song\*, Lisheng Huang\*, **Shuang Sun**\*, Jinhao Jiang\*, Ran Le, Daixu
   </div>
 </div>
 
+
+
 ---
 
 <span class='anchor' id='honors'></span>
 
-## 🎖 Honors
+## 🎖 荣誉
 
-- **2025** Outstanding Graduate, Northeastern University (**Top 0.9%**)  
-- **2023** Huawei Scholarship (**Top 2.3%**)  
-- **2022** National Scholarship (**Top 0.2%**)  
+- **2025** 东北大学优秀毕业生（Top 0.9%）  
+- **2023** 华为奖学金（Top 2.3%）  
+- **2022** 国家奖学金（Top 0.2%）  
 
 ---
 
 <span class='anchor' id='educations'></span>
 
-## 📖 Education
+## 📖 教育经历
 
-- **Sep. 2025 – Present** M.S. student, Gaoling School of Artificial Intelligence, Renmin University of China  
-- **Sep. 2021 – Jun. 2025** B.E., School of Computer Science and Engineering, Northeastern University  
+- **2025.09 – 至今** 中国人民大学，高瓴人工智能学院，硕士  
+- **2021.09 – 2025.06** 东北大学，计算机科学与工程学院，本科  
 
 ---
 
 <span class='anchor' id='internships'></span>
 
-## 💻 Internships
+## 💻 实习经历
 
-- **Oct. 2025 – Present** Nanbeige LLM Lab, Boss Zhipin
+- **2025.10 – 至今** Nanbeige LLM Lab, Boss Zhipin
