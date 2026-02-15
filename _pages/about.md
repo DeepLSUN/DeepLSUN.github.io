@@ -20,14 +20,16 @@ redirect_from:
   <a href="#en">English</a> · <a href="#zh">中文</a>
 </div> -->
 
----
+
 
 <span class='anchor' id='en'></span>
 <span class='anchor' id='about-me'></span>
 
 ## 👋 About Me
 
-I am a first-year M.S. student at the **Gaoling School of Artificial Intelligence (GSAI), Renmin University of China (RUC)**, advised by [**Prof. Xin Zhao**](http://ai.ruc.edu.cn/academicfaculty/szdwn/zx/index.htm). My research interests include **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **Agents**, with a particular focus on improving models’ **planning**, **tool use**, and **long-horizon reasoning** in complex real-world tasks.
+I am a first-year M.S. student at the [Gaoling School of Artificial Intelligence (GSAI)](http://ai.ruc.edu.cn/), [Renmin University of China (RUC)](https://www.ruc.edu.cn/), advised by [**Prof. Xin Zhao**](http://ai.ruc.edu.cn/academicfaculty/szdwn/zx/index.htm). My research interests include **Natural Language Processing (NLP)**, **Large Language Models (LLMs)**, and **Agents**, with a particular focus on improving models’ **planning**, **tool use**, and **long-horizon reasoning** in complex real-world tasks.
+
+**My email is: sunshuang@ruc.edu.cn.**
 
 ---
 
@@ -200,7 +202,7 @@ Huatong Song\*, Lisheng Huang\*, **Shuang Sun**\*, Jinhao Jiang\*, Ran Le, Daixu
   </div>
 </div>
 
----
+
 
 <span class='anchor' id='honors'></span>
 

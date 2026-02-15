@@ -7,9 +7,14 @@
 
 # Site Settings
 title                    : "Shuang Sun"
-description              : "Graduate Student at Gaoling School of Artificial Intelligence, Renmin University of China (RUC). Research interests: LLMs, pretraining, and agent."
+description              : "Graduate Student at GSAI, RUC. Research interests: LLMs, pretraining, and agent."
 repository               : "DeepLSUN/DeepLSUN.github.io"
 google_scholar_stats_use_cdn : true
+
+# ✅ Important for SEO / canonical on GitHub Pages
+url                      : "https://deeplsun.github.io"
+baseurl                  : ""     # user site repo: MUST be empty
+lang                     : "en"
 
 # google analytics
 google_analytics_id      : "G-SC5LJ9FV2W" # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,12 +26,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Shuang Sun"
+  name             : "Shuang Sun (孙爽)"
   avatar           : "/images/android-chrome-512x512.png"
   bio              : "Renmin University of China"
   location         : "Beijing, China"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=eZvfNC8AAAAJ"
   email            : "sunshuang@ruc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
@@ -51,13 +56,12 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-
 
 # Reading Files
 include:
@@ -97,14 +101,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -127,17 +129,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -153,7 +152,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
